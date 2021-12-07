@@ -1,9 +1,11 @@
 package com.nextzakir;
 
+import com.nextzakir.util.StringUtil;
+
 public class Application {
     public static void main(String[] args) {
 
-        System.out.println("Hello, World!");
+        StringUtil.getLength("Hello, World!");
 
     }
 }
